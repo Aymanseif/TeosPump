@@ -1,144 +1,90 @@
-# TeosPump
-The repository was created autonomously  by Elmahrosa International 
-mkdir docs
-# 🚀 TeosPump – Solana Launchpad for $TEOS
 
-**TeosPump** is a decentralized token launchpad that lets anyone create cultural or meme tokens on **Solana** using **$TEOS** for payment and rewards.
+# 🚀 TeosPump – Cultural Token Launchpad on Solana
 
-Backed by **Elmahrosa International 🇪🇬**, it merges Egyptian heritage with blockchain tech — empowering creators through smart tools, instant tokenization, and community-driven economics.
+**TeosPump** is a decentralized launchpad empowering creators to mint meme and cultural tokens on the **Solana blockchain**, backed by **$TEOS Egypt**, a heritage-themed SPL token inspired by Pharaoh Teos. Developed by **Elmahrosa International 🇪🇬**, TeosPump bridges ancient Egyptian legacy with modern blockchain utility, enabling fast, low-cost tokenization integrated with mobile mining rewards and educational content.
 
 ---
 
 ## 🌐 Live Project
 
-🔗 [https://teospump.vercel.app](https://teospump.vercel.app)
+🔗 [TeosPump DApp](https://teospump.vercel.app)  
+🔗 [$TEOS SPL Token on Solscan](https://solscan.io/token/AhXBUQmbhv9dNoZCiMYmXF4Gyi1cjQthWHFhTL2CJaSo)  
+🔗 [$TEOS on DexLab](https://www.dexlab.space/token-hub/AhXBUQmbhv9dNoZCiMYmXF4Gyi1cjQthWHFhTL2CJaSo)  
 
 ---
 
 ## 🎯 Key Features
 
-- 🔐 **Phantom Wallet** Integration  
-- 🪙 **SPL Token Creator** (Name, Symbol, Supply)
-- 💸 **Token Launch Fee** in $TEOS or 0.1 SOL
-- 🎁 **Mobile Mining App Sync** (Rewards in $TEOS)
-- ⚡ **Fast on Solana** – built with `@solana/web3.js`
-- 🚀 **Auto-deploy** via GitHub & Vercel
-- 🌍 **Pi Network Compatible** backend
+- 🔐 Phantom Wallet Integration
+- 🪙 SPL Token Creator (Name, Symbol, Supply)
+- 💸 Launch Fee in $TEOS or SOL
+- 📱 Mobile Sync for Miners (Pi Network Compatible)
+- ⚡ Fast On-Chain Deployment via Solana
+- 🌍 Cultural Branding & NFT Architecture
+- 🚀 GitHub + Vercel Auto-Deployment
 
 ---
 
 ## 🧠 How It Works
 
-1. Connect your **Phantom wallet**
-2. Fill token name, symbol, and total supply
-3. Pay a **launch fee** (0.1 SOL or fixed $TEOS)
-4. Your token is minted live to Solana
-5. Backend syncs user rewards with the mobile TEOS app
-6. App runs fast via Vercel with backend API for mobile
+1. Connect your **Phantom wallet**  
+2. Input token metadata: name, symbol, supply  
+3. Pay launch fee in $TEOS or 0.1 SOL  
+4. Mint token live on Solana  
+5. Sync reward data with mobile TEOS mining app  
+6. Token info & rewards managed via backend API  
 
 ---
 
 ## 🛠 Tech Stack
 
-| Layer        | Tools/Frameworks                          |
-|--------------|--------------------------------------------|
-| Frontend     | React, Next.js (v14), TailwindCSS          |
-| Wallet       | Phantom, `@solana/web3.js`                |
-| Token Logic  | Solana SPL (mint/token authority logic)    |
-| Backend      | Express API (Node.js + TypeScript)         |
-| Mobile Sync  | Firebase or REST                           |
-| Hosting      | GitHub + Vercel                            |
-
-### 🛠️BUILD REQUEST: **TeosPump – Solana Launchpad for \$TEOS**
-
----
-
-#### 📌 Overview:
-
-We are building **TeosPump**, a decentralized launchpad that enables users to create meme/cultural tokens on the **Solana blockchain** using the **\$TEOS token** as the payment and reward mechanism. The project is backed by **Elmahrosa International** with strong Egyptian cultural branding.
+| Layer         | Tools/Frameworks                      |
+|---------------|----------------------------------------|
+| Frontend      | React, Next.js (v14), TailwindCSS      |
+| Wallet        | Phantom Wallet, `@solana/web3.js`      |
+| Backend       | Express API (Node.js + TypeScript)     |
+| Token Logic   | Solana SPL Minting                     |
+| Mobile Sync   | Firebase / REST API                    |
+| Hosting       | GitHub + Vercel                        |
+| Branding      | $TEOS Egypt Cultural & Meme Ecosystem |
 
 ---
 
-#### 🛋️ Project Stack:
+## 📁 Repository Structure
 
-* **Frontend:** Next.js (v14+), TypeScript, TailwindCSS
-* **Wallet:** Phantom wallet integration using `@solana/web3.js`
-* **Token Minting:** Solana SPL Token creation
-* **Backend:** Express (Node.js) — handles mobile sync, sends \$TEOS to wallets
-* **Smart Contract (SPL):** Uses real mint address
-* **Storage/Deployment:** GitHub + Vercel (Auto Deploy)
-* **Token Info:**
-
-  * Token Name: `$TEOS Egypt`
-  * CA (Mint): `AhXBUQmbhv9dNoZCiMYmXF4Gyi1cjQthWHFhTL2CJaSo`
-  * Owner Wallet: `Akvm3CbDN448fyD8qmQjowgBGpcYZtjuKFL4xT8PZhbF`
-
----
-
-#### ✅ Features:
-
-* Connect Phantom Wallet
-* Live SPL token minting via Solana
-* Pay token creation fee in \$TEOS
-* Enter and deploy token metadata (name, symbol, supply)
-* Reward tracking and sync for mobile miners (Pi Network)
-* GitHub + Vercel auto-deploy integration
-* Egyptian cultural branding and NFT-ready architecture
-
----
-
-#### 📁 File & Folder Structure:
-
-```
+```bash
 Teospump/
 ├── backend/
-│   ├── package.json
-│   ├── tsconfig.json
-│   └── src/
-│       ├── app.ts
-│       ├── routes/
-│       │   ├── mobile.ts
-│       │   └── token.ts
-│       └── utils/
-│           └── solana.ts
+│   ├── src/
+│   │   ├── app.ts
+│   │   ├── routes/
+│   │   │   ├── mobile.ts
+│   │   │   └── token.ts
+│   │   └── utils/
+│   │       └── solana.ts
 ├── pages/
 │   ├── index.tsx
 │   └── create-token.tsx
-├── utils/
-│   └── solana.ts
 ├── public/
 │   └── logo.png
-├── package.json
-├── tsconfig.json
-├── next.config.js
+├── utils/
+│   └── solana.ts
+├── WHITEPAPER.md
 ├── README.md
-└── WHITEPAPER.md
+└── next.config.js
 ```
 
 ---
 
-#### 🧠 Logic Flow:
+## 🌟 Project Vision
 
-1. User connects Phantom wallet.
-2. Enters token name, symbol, and total supply.
-3. Pays 0.1 SOL (or a fee in \$TEOS) to `Akvm3CbDN448fyD8qmQjowgBGpcYZtjuKFL4xT8PZhbF`.
-4. Token gets minted via Solana SPL on-chain using `@solana/web3.js`.
-5. Backend (Express API) logs token & user info, and syncs to mobile app.
-6. Mobile app backend sends \$TEOS rewards (optional).
-7. Project is auto-deployed to Vercel and updates from GitHub repo.
+The TeosPump launchpad is a cornerstone of the **$TEOS Egypt** initiative—a meme coin with meaning. By giving creators instant access to tokenization tools backed by cultural narratives, Elmahrosa International is transforming how blockchain can honor the past while shaping the future. Whether it’s launching collectible NFTs, gamified mining campaigns, or educational assets, TeosPump fuels decentralized creativity with soul.
 
 ---
 
-#### 🔗 Repos & Links:
+## 🤝 Contribution & License
 
-* GitHub: [https://github.com/Aymanseif/Teospump](https://github.com/Elmahrosa/Teospump)
-* Vercel: [https://teospump.vercel.app](https://teospump.vercel.app)
-* \$TEOS on Solana: [Solscan](https://solscan.io/token/AhXBUQmbhv9dNoZCiMYmXF4Gyi1cjQthWHFhTL2CJaSo)
-* \$TEOS Token on Dexlab: [DexLab Token Page](https://www.dexlab.space/token-hub/AhXBUQmbhv9dNoZCiMYmXF4Gyi1cjQthWHFhTL2CJaSo)
+Want to help expand TeosPump? Check out `CONTRIBUTING.md` for ways to get involved.
 
-
-
-
-## 📦 Project Structure
-
+Licensed under MIT. See the `LICENSE` file.
 
