@@ -1,19 +1,20 @@
-TeosPump/
-├── docs/
-│   └── TeosPump_pdf
-├── src/
-│   ├── frontend/
-│   │   ├── public/
-│   │   └── src/
-│   │       ├── components/
-│   │       ├── pages/
-│   │       └── styles/
-│   └── backend/
-│       ├── controllers/
-│       ├── models/
-│       ├── routes/
-│       └── services/
-├── .gitignore
-├── package.json
-├── README.md
-└── LICENSE
+mkdir -p Teospump/backend/src/routes
+mkdir -p Teospump/backend/src/utils
+mkdir -p Teospump/pages
+mkdir -p Teospump/public
+mkdir -p Teospump/utils
+
+# Create core files
+touch Teospump/backend/src/app.ts
+touch Teospump/backend/src/routes/mobile.ts
+touch Teospump/backend/src/routes/token.ts
+touch Teospump/backend/src/utils/solana.ts
+touch Teospump/pages/index.tsx
+touch Teospump/pages/create-token.tsx
+touch Teospump/utils/solana.ts
+touch Teospump/public/logo.png
+touch Teospump/package.json
+touch Teospump/README.md
+touch Teospump/WHITEPAPER.md
+touch Teospump/tsconfig.json
+touch Teospump/next.config.js
