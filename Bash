@@ -1,5 +1,0 @@
-```bash
-git add vercel.json
-git commit -m "Add clean vercel.json for Next.js deployment"
-git push origin main
-```
