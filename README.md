@@ -1,9 +1,9 @@
 
 # 🚀 TeosPump – Cultural Token Launchpad on Solana
 
-**TeosPump** is a decentralized launchpad empowering creators to mint meme and cultural tokens on the **Solana blockchain**, backed by **$TEOS Egypt**, a heritage-themed SPL token inspired by Pharaoh Teos. Developed by **Elmahrosa International 🇪🇬**, TeosPump bridges ancient Egyptian legacy with modern blockchain utility, enabling fast, low-cost tokenization integrated with mobile mining rewards and educational content.
+**TeosPump** 
+is a decentralized launchpad empowering creators to mint meme and cultural tokens on the **Solana blockchain**, backed by **$TEOS Egypt**, a heritage-themed SPL token inspired by Pharaoh Teos. Developed by **Elmahrosa International 🇪🇬**, TeosPump bridges ancient Egyptian legacy with modern blockchain utility, enabling fast, low-cost tokenization integrated with mobile mining rewards and educational content.
 
----
 
 ## 🌐 Live Project
 
@@ -11,7 +11,6 @@
 🔗 [$TEOS SPL Token on Solscan](https://solscan.io/token/AhXBUQmbhv9dNoZCiMYmXF4Gyi1cjQthWHFhTL2CJaSo)  
 🔗 [$TEOS on DexLab](https://www.dexlab.space/token-hub/AhXBUQmbhv9dNoZCiMYmXF4Gyi1cjQthWHFhTL2CJaSo)  
 
----
 
 ## 🎯 Key Features
 
