@@ -52,7 +52,7 @@
 
 ## 📁 Repository Structure
 
-```bash
+bash
 Teospump/
 ├── backend/
 │   ├── src/
@@ -72,7 +72,7 @@ Teospump/
 ├── WHITEPAPER.md
 ├── README.md
 └── next.config.js
-```
+
 
 ---
 
@@ -81,112 +81,5 @@ Teospump/
 The TeosPump launchpad is a cornerstone of the **$TEOS Egypt** initiative—a meme coin with meaning. By giving creators instant access to tokenization tools backed by cultural narratives, Elmahrosa International is transforming how blockchain can honor the past while shaping the future. Whether it’s launching collectible NFTs, gamified mining campaigns, or educational assets, TeosPump fuels decentralized creativity with soul.
 
 ---
-
-# ðŸš€ TeosPump â€“ Peluncuran Token Budaya di Solana
-
-**TeosPump** adalah platform peluncuran token meme dan budaya berbasis **Solana**, terinspirasi oleh warisan Mesir kuno dan didukung oleh token SPL `$TEOS`. Proyek ini bertujuan untuk menyediakan antarmuka cepat dan aman untuk siapa saja yang ingin mencetak token SPL dengan biaya rendah dan integrasi penuh dengan dompet Phantom.
-
-ðŸ”— [DApp TeosPump](https://teospump.vercel.app/)  
-ðŸ”— [Token $TEOS di Solscan](https://solscan.io/token/AhXBUQmbhv9dNoZCiMYmXF4Gyi1cjQthWHFhTL2CJaSo)
-
----
-
-## ðŸ“¦ Installation Guide
-
-### ðŸ”§ Requirements
-- Node.js >= 18
-- Yarn atau npm
-- Phantom Wallet
-
-### ðŸ–¥ï¸ Local Setup
-
-```bash
-# Clone repositori
-git clone https://github.com/Elmahrosa/TeosPump.git
-cd TeosPump
-
-# Install dependencies frontend
-cd frontend
-yarn install
-yarn dev
-```
-
-```bash
-# Install backend
-cd ../backend
-yarn install
-yarn dev
-```
-
-> Atau deploy otomatis via Vercel (sudah disiapkan `vercel.json`)
-
----
-
-## ðŸ”Œ API Reference
-
-### POST `/api/token/create`
-> Membuat token SPL baru
-
-**Body**:
-```json
-{ "name": "MyToken", "symbol": "MTK", "supply": 1000000 }
-```
-
-**Response**:
-```json
-{ "mint_address": "xxxx...", "transaction_url": "https://solscan.io/tx/..." }
-```
-
-### GET `/api/mobile/sync`
-> Sinkronisasi data token ke aplikasi mobile (fitur internal)
-
----
-
-## ðŸ§ª Contoh Proyek SPL Token (Demo)
-
-Langkah:
-1. Hubungkan dompet Phantom.
-2. Isi nama token, simbol, jumlah suplai.
-3. Bayar biaya 0.1 SOL atau 1000 TEOS.
-4. Token langsung dibuat dan bisa dicek di Solscan.
-
-Contoh hasil:
-```
-Token: "PharaohCoin"
-Simbol: "PHC"
-Supply: 1.000.000
-Solscan: https://solscan.io/token/...
-```
-
----
-
-## ðŸ‘¨â€ðŸ’» Developer Guide
-
-- Frontend: Next.js + TailwindCSS (`/frontend`)
-- Backend: Node.js + Express + TypeScript (`/backend`)
-- Blockchain Layer: Solana SPL, `@solana/web3.js`
-- Hosting: Vercel
-- Sinkronisasi: Firebase (opsional)
-
-Struktur proyek:
-```
-TeosPump/
- â”œâ”€â”€ frontend/
- â”‚   â””â”€â”€ create-token.tsx
- â”œâ”€â”€ backend/
- â”‚   â””â”€â”€ routes/token.ts
- â””â”€â”€ utils/
-     â””â”€â”€ solana.ts
-```
-
----
-
-## ðŸ¤ How to Contribute
-
-Kami menerima kontribusi dari komunitas. Baca [CONTRIBUTING.md](CONTRIBUTING.md) untuk detailnya.
-
----
-
-## ðŸ“„ License
 
 MIT Â© 2025 Elmahrosa International
