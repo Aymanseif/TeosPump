@@ -79,6 +79,5 @@ Teospump/
 
 The TeosPump launchpad is a cornerstone of the **$TEOS Egypt** initiative—a meme coin with meaning. By giving creators instant access to tokenization tools backed by cultural narratives, Elmahrosa International is transforming how blockchain can honor the past while shaping the future. Whether it’s launching collectible NFTs, gamified mining campaigns, or educational assets, TeosPump fuels decentralized creativity with soul.
 
----
 
 MIT Â© 2025 Elmahrosa International
