@@ -1,9 +1,9 @@
 
 # 🚀 TeosPump – Cultural Token Launchpad on Solana
 
-**TeosPump** 
-is a decentralized launchpad empowering creators to mint meme and cultural tokens on the **Solana blockchain**, backed by **$TEOS Egypt**, a heritage-themed SPL token inspired by Pharaoh Teos. Developed by **Elmahrosa International 🇪🇬**, TeosPump bridges ancient Egyptian legacy with modern blockchain utility, enabling fast, low-cost tokenization integrated with mobile mining rewards and educational content.
+**TeosPump** is a decentralized launchpad empowering creators to mint meme and cultural tokens on the **Solana blockchain**, backed by **$TEOS Egypt**, a heritage-themed SPL token inspired by Pharaoh Teos. Developed by **Elmahrosa International 🇪🇬**, TeosPump bridges ancient Egyptian legacy with modern blockchain utility, enabling fast, low-cost tokenization integrated with mobile mining rewards and educational content.
 
+---
 
 ## 🌐 Live Project
 
@@ -11,6 +11,7 @@ is a decentralized launchpad empowering creators to mint meme and cultural token
 🔗 [$TEOS SPL Token on Solscan](https://solscan.io/token/AhXBUQmbhv9dNoZCiMYmXF4Gyi1cjQthWHFhTL2CJaSo)  
 🔗 [$TEOS on DexLab](https://www.dexlab.space/token-hub/AhXBUQmbhv9dNoZCiMYmXF4Gyi1cjQthWHFhTL2CJaSo)  
 
+---
 
 ## 🎯 Key Features
 
@@ -51,7 +52,7 @@ is a decentralized launchpad empowering creators to mint meme and cultural token
 
 ## 📁 Repository Structure
 
-bash
+```bash
 Teospump/
 ├── backend/
 │   ├── src/
@@ -71,7 +72,7 @@ Teospump/
 ├── WHITEPAPER.md
 ├── README.md
 └── next.config.js
-
+```
 
 ---
 
@@ -79,5 +80,11 @@ Teospump/
 
 The TeosPump launchpad is a cornerstone of the **$TEOS Egypt** initiative—a meme coin with meaning. By giving creators instant access to tokenization tools backed by cultural narratives, Elmahrosa International is transforming how blockchain can honor the past while shaping the future. Whether it’s launching collectible NFTs, gamified mining campaigns, or educational assets, TeosPump fuels decentralized creativity with soul.
 
+---
 
-MIT Â© 2025 Elmahrosa International
+## 🤝 Contribution & License
+
+Want to help expand TeosPump? Check out `CONTRIBUTING.md` for ways to get involved.
+
+Licensed under MIT. See the `LICENSE` file.
+
