@@ -1,20 +1,42 @@
-mkdir -p Teospump/backend/src/routes
-mkdir -p Teospump/backend/src/utils
-mkdir -p Teospump/pages
-mkdir -p Teospump/public
-mkdir -p Teospump/utils
-
-# Create core files
-touch Teospump/backend/src/app.ts
-touch Teospump/backend/src/routes/mobile.ts
-touch Teospump/backend/src/routes/token.ts
-touch Teospump/backend/src/utils/solana.ts
-touch Teospump/pages/index.tsx
-touch Teospump/pages/create-token.tsx
-touch Teospump/utils/solana.ts
-touch Teospump/public/logo.png
-touch Teospump/package.json
-touch Teospump/README.md
-touch Teospump/WHITEPAPER.md
-touch Teospump/tsconfig.json
-touch Teospump/next.config.js
+Teospump/
+├── backend/                    # Express API (token logic, mobile sync)
+│   ├── src/
+│   │   ├── app.ts              # Main Express app config
+│   │   ├── routes/            # API route handlers
+│   │   │   ├── token.ts        # Token minting logic
+│   │   │   └── mobile.ts       # Mobile reward sync
+│   │   └── utils/
+│   │       └── solana.ts       # Solana helper functions
+│   ├── package.json
+│   └── tsconfig.json
+│
+├── frontend/                  # Next.js DApp interface
+│   ├── pages/
+│   │   ├── index.tsx          # Homepage with wallet connect
+│   │   └── create-token.tsx   # Token launch form
+│   ├── components/            # UI components
+│   │   └── WalletButton.tsx   # Phantom wallet integration
+│   ├── public/
+│   │   └── logo.png
+│   ├── styles/                # Tailwind or custom styles
+│   │   └── globals.css
+│   ├── utils/
+│   │   └── solana.ts          # Frontend helpers for minting
+│   ├── package.json
+│   └── tsconfig.json
+│
+├── shared/                   # Reusable config or models
+│   └── types.ts               # TypeScript interfaces
+│
+├── .github/                  # Community & workflow templates
+│   ├── ISSUE_TEMPLATE/
+│   │   └── feature-request.md
+│   └── PULL_REQUEST_TEMPLATE.md
+│
+├── .eslintrc.json
+├── .prettierrc
+├── CONTRIBUTING.md
+├── README.md
+├── WHITEPAPER.md
+├── LICENSE
+└── next.config.js
