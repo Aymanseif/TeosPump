@@ -1,42 +1,24 @@
 Teospump/
-├── backend/                    # Express API (token logic, mobile sync)
-│   ├── src/
-│   │   ├── app.ts              # Main Express app config
-│   │   ├── routes/            # API route handlers
-│   │   │   ├── token.ts        # Token minting logic
-│   │   │   └── mobile.ts       # Mobile reward sync
-│   │   └── utils/
-│   │       └── solana.ts       # Solana helper functions
-│   ├── package.json
-│   └── tsconfig.json
-│
-├── frontend/                  # Next.js DApp interface
+├── backend/
+│   └── src/
+│       ├── app.ts
+│       ├── routes/
+│       │   ├── token.ts
+│       │   └── mobile.ts
+│       └── utils/
+│           └── solana.ts
+├── frontend/
 │   ├── pages/
-│   │   ├── index.tsx          # Homepage with wallet connect
-│   │   └── create-token.tsx   # Token launch form
-│   ├── components/            # UI components
-│   │   └── WalletButton.tsx   # Phantom wallet integration
-│   ├── public/
-│   │   └── logo.png
-│   ├── styles/                # Tailwind or custom styles
-│   │   └── globals.css
+│   ├── components/
 │   ├── utils/
-│   │   └── solana.ts          # Frontend helpers for minting
-│   ├── package.json
-│   └── tsconfig.json
-│
-├── shared/                   # Reusable config or models
-│   └── types.ts               # TypeScript interfaces
-│
-├── .github/                  # Community & workflow templates
+│   ├── public/
+│   ├── styles/
+├── shared/
+│   └── types.ts
+├── .github/
 │   ├── ISSUE_TEMPLATE/
 │   │   └── feature-request.md
 │   └── PULL_REQUEST_TEMPLATE.md
-│
-├── .eslintrc.json
-├── .prettierrc
-├── CONTRIBUTING.md
 ├── README.md
 ├── WHITEPAPER.md
 ├── LICENSE
-└── next.config.js
