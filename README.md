@@ -55,3 +55,25 @@
 ```bash
 git clone https://github.com/Elmahrosa/TeosPump.git
 cd TeosPump
+
+---
+
+### ✅ Next Step:
+
+Paste this directly into your GitHub repo:
+
+1. Go to [https://github.com/Elmahrosa/TeosPump](https://github.com/Elmahrosa/TeosPump)
+2. Click `README.md` → 🖉 edit icon
+3. Replace the contents with the code above
+4. Commit changes ✅
+
+Let me know if you want to:
+- Add deploy screenshots
+- Auto-generate release notes
+- Add GitHub Actions badges (CI/CD)
+
+Let’s polish the launch! 🚀
+© 2025 TeosPump – Powered by Elmahrosa International | All Rights Reserved.
+
+نسخ
+تح
