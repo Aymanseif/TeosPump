@@ -74,6 +74,3 @@ Let me know if you want to:
 
 Let’s polish the launch! 🚀
 © 2025 TeosPump – Powered by Elmahrosa International | All Rights Reserved.
-
-نسخ
-تح
