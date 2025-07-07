@@ -1,24 +1,7 @@
-Teospump/
-├── backend/
-│   └── src/
-│       ├── app.ts
-│       ├── routes/
-│       │   ├── token.ts
-│       │   └── mobile.ts
-│       └── utils/
-│           └── solana.ts
-├── frontend/
-│   ├── pages/
-│   ├── components/
-│   ├── utils/
-│   ├── public/
-│   ├── styles/
-├── shared/
-│   └── types.ts
-├── .github/
-│   ├── ISSUE_TEMPLATE/
-│   │   └── feature-request.md
-│   └── PULL_REQUEST_TEMPLATE.md
-├── README.md
-├── WHITEPAPER.md
-├── LICENSE
+# 📁 TeosPump Project Structure
+
+- `/pages/` — Frontend app routes (Next.js)
+- `/utils/` — Solana and helper logic
+- `/backend/` — Express API (token minting, mobile sync)
+- `/public/` — Static assets like logo.png
+- `README.md`, `WHITEPAPER.md` — Project documentation
