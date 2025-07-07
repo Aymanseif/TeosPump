@@ -16,12 +16,12 @@
 
 ### ✨ Key Features
 
-- ⚡ **Fast token creation** (SPL mint in 1 click)
-- 🔐 **Phantom Wallet Integration**
-- 💸 **$TEOS or 0.1 SOL Launch Fee**
-- 📱 **Mobile Mining Sync (Reward System)**
-- 🎨 **Egyptian-themed cultural branding**
-- 🧠 **Future AI & IoT Extensions**
+- ⚡ Fast token creation (SPL mint in 1 click)
+- 🔐 Phantom Wallet Integration
+- 💸 $TEOS or 0.1 SOL Launch Fee
+- 📱 Mobile Mining Sync (Reward System)
+- 🎨 Egyptian-themed cultural branding
+- 🧠 Future AI & IoT Extensions
 
 ---
 
@@ -32,9 +32,9 @@
 | Blockchain  | Solana, SPL Token                |
 | Frontend    | React, Next.js, TailwindCSS      |
 | Backend     | Express (Node.js)                |
-| Wallet      | Phantom via `@solana/web3.js`    |
+| Wallet      | Phantom via @solana/web3.js      |
 | Hosting     | GitHub + Vercel                  |
-| Token       | `$TEOS` — Mint Address: `AhXBUQ...` |
+| Token       | $TEOS – Mint Address: AhXBUQ...  |
 
 ---
 
@@ -43,34 +43,72 @@
 - **Name:** $TEOS Egypt
 - **Blockchain:** Solana
 - **Total Supply:** 10,000,000,000 $TEOS
-- **Mint Address:** [`AhXBUQ...`](https://solscan.io/token/AhXBUQmbhv9dNoZCiMYmXF4Gyi1cjQthWHFhTL2CJaSo)
-- **Owner Wallet:** `Akvm3CbDN448fyD8qmQjowgBGpcYZtjuKFL4xT8PZhbF`
+- **Mint Address:** [AhXBUQ...](https://solscan.io/token/AhXBUQmbhv9dNoZCiMYmXF4Gyi1cjQthWHFhTL2CJaSo)
+- **Owner Wallet:** Akvm3CbDN448fyD8qmQjowgBGpcYZtjuKFL4xT8PZhbF
 
 ---
 
 ### 🛠️ Project Setup
 
 #### 1. Clone the repo
-
 ```bash
 git clone https://github.com/Elmahrosa/TeosPump.git
 cd TeosPump
+```
+
+#### 2. Install dependencies
+```bash
+npm install
+```
+
+#### 3. Run the frontend
+```bash
+npm run dev
+```
+
+#### 4. Visit:
+```
+http://localhost:3000
+```
 
 ---
 
-### ✅ Next Step:
+### 🌍 Live Deployment
 
-Paste this directly into your GitHub repo:
+- **Frontend:** https://teospump.vercel.app
+- **GitHub Repo:** https://github.com/Elmahrosa/TeosPump
 
-1. Go to [https://github.com/Elmahrosa/TeosPump](https://github.com/Elmahrosa/TeosPump)
-2. Click `README.md` → 🖉 edit icon
-3. Replace the contents with the code above
-4. Commit changes ✅
+---
 
-Let me know if you want to:
-- Add deploy screenshots
-- Auto-generate release notes
-- Add GitHub Actions badges (CI/CD)
+### 📱 Mobile App Sync (Coming Soon)
 
-Let’s polish the launch! 🚀
-© 2025 TeosPump – Powered by Elmahrosa International | All Rights Reserved.
+The Express backend is designed to:
+- Sync token launches
+- Track rewards
+- Send $TEOS to mobile wallets via API
+
+---
+
+### 📄 Whitepaper & Docs
+
+- [WHITEPAPER.md](./WHITEPAPER.md)
+- [Structure](./Structure)
+
+---
+
+### 🙌 Powered By
+
+- 🇪🇬 Elmahrosa International
+- 🧠 Blitzy AI
+- 🔗 Solana Blockchain
+- 📲 Phantom Wallet
+
+---
+
+### 📢 Social & Contact
+
+- X: [@KING_TEOS_EGYPT](https://x.com/KING_TEOS_EGYPT)
+- Telegram: [@elmahrosapi](https://t.me/elmahrosapi)
+- Email: picryptozone@gmail.com
+
+> © 2025 TeosPump – Powered by Elmahrosa International | All Rights Reserved.
