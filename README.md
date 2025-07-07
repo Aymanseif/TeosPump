@@ -103,7 +103,15 @@ The Express backend is designed to:
 - 🔗 Solana Blockchain
 - 📲 Phantom Wallet
 
----
+| Requirement                                    | Status |
+| ---------------------------------------------- | ------ |
+| Root has `package.json`, `pages/`              | ✅      |
+| `next.config.js` present                       | ✅      |
+| Vercel connected to GitHub repo                | ✅      |
+| Root directory set correctly (not `/frontend`) | ✅      |
+| Build succeeds with `npm run build`            | ✅      |
+| No missing files or .env required              | ✅      |
+
 
 ### 📢 Social & Contact
 
