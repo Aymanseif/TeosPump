@@ -118,5 +118,7 @@ The Express backend is designed to:
 - X: [@KING_TEOS_EGYPT](https://x.com/KING_TEOS_EGYPT)
 - Telegram: [@elmahrosapi](https://t.me/elmahrosapi)
 - Email: picryptozone@gmail.com
+- 📄 [View full launch plan](./TEOSPump_LaunchPlan.md)
+
 
 > © 2025 TeosPump – Powered by Elmahrosa International | All Rights Reserved.
